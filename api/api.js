@@ -17,7 +17,7 @@
 import axios from "axios";
 import { data } from "react-router-dom";
 
-const URL = 'http://localhost:5001'; // backend URL
+const URL = 'https://company-application.onrender.com'; // backend URL
 
 export const createCompany = async (data) => {
     try {
