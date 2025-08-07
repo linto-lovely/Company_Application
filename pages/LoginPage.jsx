@@ -12,7 +12,7 @@ const LoginPage = () => {
     setError('');
   
     try {
-      const res = await fetch('http://localhost:5001/auth/login', {
+      const res = await fetch('https://company-application.onrender.com/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
